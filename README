@@ -1,0 +1,90 @@
+# 🚗 Car Price Prediction Web App
+
+This project is a web-based machine learning application that predicts the selling price of a car based on various input features like car brand, manufacturing year, fuel type, and more. It uses a trained Random Forest model and is built using **Python**, **Flask**, and **HTML**.
+
+## 📁 Project Structure
+
+```
+CarPricePredication-main/
+├── application.py                # Flask application
+├── requirements.txt              # Python dependencies
+├── models/
+│   └── randomforest.pkl          # Pre-trained machine learning model
+├── templates/
+│   ├── index.html                # Home page form
+│   └── prediction.html           # Result page
+├── Notebook/
+│   └── Car_Dekheo_EDA.xls        # Exploratory Data Analysis file
+├── .gitignore
+└── README                        # Old readme (replaced by this README.md)
+```
+
+## 🚀 Features
+
+- Predicts car selling price based on input parameters.
+- User-friendly web interface using Flask.
+- Trained Random Forest model.
+- EDA available in `.xls` format.
+
+## 🧠 Model Info
+
+- Model: `RandomForestRegressor`
+- File: `models/randomforest.pkl`
+- Trained on cleaned and feature-engineered car dataset.
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone <repo-url>
+cd CarPricePredication-main
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
+```
+
+### 3. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+```bash
+python application.py
+```
+
+Go to `http://127.0.0.1:5000` in your browser to use the app.
+
+## 📷 Screenshots
+
+- **index.html**: Input form for car features
+- **prediction.html**: Displays the predicted price
+
+## 🛠️ Tools & Technologies
+
+- Python
+- Flask
+- Scikit-learn
+- HTML/CSS
+- Pandas, NumPy
+
+## 📂 Dataset
+
+The dataset used for training and EDA is included in `Notebook/Car_Dekheo_EDA.xls`.
+
+## 📬 Contact
+
+For queries or feedback, feel free to reach out.
+
+
+
+
+
+## Author :- Professor Nitish Kumar
